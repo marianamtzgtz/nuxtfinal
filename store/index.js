@@ -1,9 +1,14 @@
 export const state = () => ({
-    newUser: false
+    newPatient: false,
+    newCita: false
 })
 
 export const mutations = {
-    setNewUser(state, newUser) {
-        state.newUser = newUser
+    setNewPatient(state, newPatient) {
+        state.newPatient = newPatient
+    },
+    setNewCita(state, newCita) {
+        state.newCita = newCita
     }
 }
+

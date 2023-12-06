@@ -1,13 +1,16 @@
-<template>
-  <ui-login />
-</template>
-
 <script>
-import uiLogin from '/components/Users/uiLogin.vue'
+import login from '~/components/Users/login.vue';
+
 export default {
   name: 'IndexPage',
   components: {
-    uiLogin
+    login
   }
-}
+};
 </script>
+<template>
+  <div fluid>
+    <login/>
+  </div>  
+</template>
+
